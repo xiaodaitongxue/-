@@ -11,7 +11,7 @@ class CaipiaoPipeline(object):
 
     def __init__(self):
         # 连接Mysql数据库
-        self.connect = pymysql.connect(host='localhost', user='root', password='Huawei@123', database='caipiao', port=3306)
+        self.connect = pymysql.connect(host='localhost', user='root', password='Huawei123', database='caipiao', port=3306)
         self.cursor = self.connect.cursor()
 
     def process_item(self, item, spider):

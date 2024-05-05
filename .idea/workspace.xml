@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b237b89-d452-474f-a9ba-e0dae6840f3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/caipiao/templates/show_all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caipiao/testforall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caipiao/webdisplay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/templates/show_all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/webflasktest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caipiao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caipiao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caipiao/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/caipiao/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caipiao/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/caipiao/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caipiao/spiders/caipiaosc.py" beforeDir="false" afterPath="$PROJECT_DIR$/caipiao/spiders/caipiaosc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caipiao/spiders/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/caipiao/spiders/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caipiao/webdisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/caipiao/webdisplay.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +201,19 @@
       <option name="presentableId" value="Default" />
       <updated>1591594877985</updated>
     </task>
+    <task id="LOCAL-00001" summary="所有双色球中奖数据写入mysql成功">
+      <created>1714904175184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714904175184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="所有双色球中奖数据写入mysql成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="所有双色球中奖数据写入mysql成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

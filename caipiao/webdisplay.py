@@ -5,13 +5,13 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 '''连接数据库'''
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:"Huawei@123"@localhost:3306/shuangseqiu?charset=utf8'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:{}@localhost:3306/shuangseqiu?charset=utf8'.format('Huawei123')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 DEBUG = True
 db = SQLAlchemy(app)
 
 class ShuangSeQiu(db.Model):
-    date = db.Colume(db.String(100), primary_key=True)
+    date = db.Column(db.String(100), primary_key=True)
     red1 = db.Column(db.Integer)
     red2 = db.Column(db.Integer)
     red3 = db.Column(db.Integer)
