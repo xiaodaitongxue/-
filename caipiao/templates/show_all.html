@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+ <body>
+
+      <h3>
+         <a href = "{{ url_for('show_all') }}">双色球刷选器</a>
+      </h3>
+
+
+      <table>
+         <thead>
+            <tr>
+               <th>date</th>
+               <th>red1</th>
+               <th>red2</th>
+               <th>red3</th>
+               <th>red4</th>
+               <th>red5</th>
+               <th>red6</th>
+               <th>blue</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            {% for numberarry in shuangseqiu %}
+               <tr>
+                  <td>{{ numberarry.date }}</td>
+                  <td>{{ numberarry.red1 }}</td>
+                  <td>{{ numberarry.red2 }}</td>
+                  <td>{{ numberarry.red3 }}</td>
+                  <td>{{ numberarry.red4 }}</td>
+                  <td>{{ numberarry.red5 }}</td>
+                  <td>{{ numberarry.red6 }}</td>
+                  <td>{{ numberarry.blue }}</td>
+               </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+
+   </body>
+</html>
